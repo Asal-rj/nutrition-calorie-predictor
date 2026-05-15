@@ -65,12 +65,10 @@ rf.fit(X_train,y_train)
 
 
 
+
 #creating models_nv folder 
-
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_dir = os.path.join(BASE_DIR, "..", "models_nv") # builds the path to the "models" folder relative to this file
-# then Python converts it into the correct absolute path at runtime
+model_dir = os.path.join(BASE_DIR, "..", "models_nv") 
 
 os.makedirs(model_dir, exist_ok=True)
 

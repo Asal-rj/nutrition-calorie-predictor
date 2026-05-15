@@ -87,9 +87,9 @@ Saved files:
 - rf_model.pkl
 - scaler.pkl
 *This allows the trained models to be reused later without retraining
+# Project Structure
 
-Project Structure:
-
+```text
 LINEAR_REGR_FROM_SCRATCH/
 │
 ├── train.py
@@ -102,10 +102,12 @@ LINEAR_REGR_FROM_SCRATCH/
 │   └── scaler.pkl
 │
 └── README.md
-
+```
 # How to Run:
 1. Install dependencies
+```bash
 pip install pandas numpy matplotlib scikit-learn
+```
 2. Train the models
 ```bash
 python train.py
